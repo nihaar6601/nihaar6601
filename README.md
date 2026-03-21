@@ -115,7 +115,7 @@ I enjoy solving engineering problems, exploring ML concepts, and building effici
 ---
 
 ### 🌐 Connect With Me
-- 🔗 **LinkedIn:** https://www.linkedin.com/in/nihar-chaudhari-3aa773225/
+- 🔗 **LinkedIn:** https://www.linkedin.com/in/nihar-chaudhari
 - 📧 **Email:** nihaar6601@gmail.com  
 
 Thanks for stopping by! ✨
