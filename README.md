@@ -8,53 +8,59 @@
 
 ### 👨‍💻 About Me
 
-I’m a backend engineer with experience in Java, Spring Boot, webservices, microservices, and SQL.  
-I currently work at **TransUnion** as an Associate Software Developer, contributing to backend features, API integrations, production debugging, and internal tools.
+I’m a backend engineer with three years of experience at **TransUnion**, working with Java, Spring, backend services, REST/SOAP integrations, data migration, and payment systems.  
+I’m currently pursuing an **MS in Computer Science at Stony Brook University** (expected May 2028).
 
-I enjoy solving engineering problems, exploring ML concepts, and building efficient systems.
+I enjoy solving engineering problems, exploring ML concepts, and building efficient systems. Lately, I’ve been working on RAG, vector search, and asynchronous backend workflows.
 
 ---
 
 ### 🛠️ Technical Skills
 
 **Languages:**  
-☕ Java • 🐍 Python • 🛢️ SQL • 📘 TypeScript • 🟨 Javascript • 🔷 C++   
+☕ Java • 🐍 Python • 🛢️ SQL • 🟨 JavaScript • 🔷 C++ • C   
 
 **Backend:**  
-🔧 Spring Boot • Spring MVC • JEE • REST APIs • Microservices • Webservices  
+🔧 Spring Boot • Spring MVC • JAX-RS • EJB • REST & SOAP APIs • Node.js • Express  
 
 **Cloud & DevOps:**  
 🐳 Docker   
 
 **Databases:**  
-🗄 PostgreSQL • MongoDB  
+🗄 PostgreSQL • MongoDB • Redis/Valkey • Qdrant  
 
 **ML & AI:**  
-🧠 NLP (text classification) • 👁️ Computer Vision (GLCM, LBP, SIFT) • 🧪 EEG signal analysis  
+🧠 RAG • 🔎 Embeddings & Hybrid Retrieval (Vector Search + BM25) • 🤖 LLM Integration • 👁️ Computer Vision • 🧪 EEG signal analysis  
 
 **Tools:**  
-🔗 Git • 📬 Postman • 🧰 Maven • 🟧 Angular
+🔗 Git • 📬 Postman • 🧰 Maven • 🟧 AngularJS • ⚡ BullMQ • Apache Kafka
 
 ---
 
 ### 💼 Professional Experience
 
-#### **Associate Software Developer — TransUnion**
-- ⚙️ Developed backend features, integrations, and enhancements for internal systems.    
-- 🔍 Resolved production issues and improved service reliability.  
-- 📡 Led a module in an **email vendor migration** project.
+#### **Associate Software Developer — TransUnion** *(Aug 2023 – Jul 2026)*
+- ⚙️ Developed Java and Spring backend services with JAX-RS, EJB, REST and SOAP integrations for customer communication systems.  
+- 📡 Worked with asynchronous notification workflows and Kafka-based systems.  
+- 🗄️ Built batch-processing pipelines to migrate **200K+ customer records** from legacy systems.  
+- 🔍 Resolved a payment transaction defect that caused duplicate customer debits.
 
-#### **Software Development Intern — TransUnion**
-- 🚀 Strengthened foundations in Java, Spring Boot, and REST API development.  
-- 🛠️ Contributed to backend logic and automation tools.
-- 🧭 Contributed to the **Career Navigation Tool** using Spring Boot + Angular + PostgreSQL.
+#### **Software Developer Intern — TransUnion** *(Feb 2023 – Jun 2023)*
+- 🚀 Developed REST APIs and internal web modules with Spring Boot, AngularJS, and PostgreSQL.  
+- 🧭 Built features for role mapping, skill mapping, and dashboards in an internal career development platform.
+
+🏆 **Awards:** Quarterly Performance Award (Mar 2025) • GCC Champ Award (Jul 2024)
 
 ---
 
 ### 🎓 Education
 
-**B.Tech — Electronics & Telecommunication Engineering**  
-*Vishwakarma Institute of Technology (VIT), Pune*
+**MS — Computer Science** *(Aug 2026 – May 2028, expected)*  
+*Stony Brook University, New York*  
+📘 System Security • Data Science Fundamentals
+
+**B.Tech — Electronics & Telecommunication Engineering** *(Aug 2019 – May 2023)*  
+*Vishwakarma Institute of Technology (VIT), Pune* • GPA: 8.72/10.0
 
 **Relevant Coursework:**  
 📘 Data Structures  
@@ -75,19 +81,28 @@ I enjoy solving engineering problems, exploring ML concepts, and building effici
 
 ### 🔬 Research & Projects
 
-#### **1. Hate Speech Detection using NLP**
+#### **1. [PDF Chat with Hybrid RAG](https://github.com/nihaar6601/Rag-PDF)**
+- 📄 Built a multi-document RAG app to upload PDFs and ask questions with document/page source references.  
+- 🔎 Combined **Qdrant vector search** and **BM25 keyword search** with custom reranking for hybrid retrieval.  
+- ⚡ Used **BullMQ + Valkey/Redis** for asynchronous PDF processing, Hugging Face embeddings, and Groq for LLM answers.
+
+#### **2. YouTube Video Summarizer**
+- 🎬 Built an Express backend that processes YouTube transcripts asynchronously using **BullMQ** workers and **Groq** for summaries.  
+- 💾 Used **Redis caching** and **MongoDB** to avoid repeated processing.
+
+#### **3. Hate Speech Detection using NLP**
 - 🗣️ Built an LSTM-based NLP model to detect hate speech.  
 - 🔡 Implemented preprocessing, tokenization, embeddings, and evaluation.
 
-#### **2. EEG-Based Emotion Detection**
+#### **4. EEG-Based Emotion Detection**
 - 🧠 Used sliding window analysis to classify emotional states from EEG signals.  
-- 📄 Under Publication in **ICRAIC2IT 2025 Taylor & Francis.**
+- 📄 Presented and published at **ICRAIC2IT 2025**.
 
-#### **3. Leakage Detection in Roofs & Walls (Computer Vision)**
+#### **5. Leakage Detection in Roofs & Walls (Computer Vision)**
 - 🧱 Applied **GLCM** and **LBP** texture analysis for leakage identification.  
 - 🏅 Under Publication at **IEEE INSPECT 2025**.
 
-#### **4. Crowd Detection & Navigation Assistance (Computer Vision)**  
+#### **6. Crowd Detection & Navigation Assistance (Computer Vision)**  
 *Status: Completed*  
 - 👥 Designed SIFT + PCA based crowd detection for assistive mobility.
 
@@ -115,7 +130,8 @@ I enjoy solving engineering problems, exploring ML concepts, and building effici
 ---
 
 ### 🌐 Connect With Me
+- 🌐 **Portfolio:** https://niharchaudhari.me
 - 🔗 **LinkedIn:** https://www.linkedin.com/in/nihar-chaudhari
-- 📧 **Email:** nihaar6601@gmail.com  
+- 📧 **Email:** nihar.chaudhari@stonybrook.edu  
 
 Thanks for stopping by! ✨
