@@ -1,121 +1,79 @@
 <h1 align="center">Hi, I'm Nihar 👋</h1>
 
 <p align="center">
-  💻 Backend Developer • 🤖 ML Enthusiast • 🧩 Problem Solver
+  Backend Engineer • MS Computer Science @ Stony Brook University • Building with AI
 </p>
-
----
-
-### 👨‍💻 About Me
-
-I’m a backend engineer with experience in Java, Spring Boot, webservices, microservices, and SQL.  
-I currently work at **TransUnion** as an Associate Software Developer, contributing to backend features, API integrations, production debugging, and internal tools.
-
-I enjoy solving engineering problems, exploring ML concepts, and building efficient systems.
-
----
-
-### 🛠️ Technical Skills
-
-**Languages:**  
-☕ Java • 🐍 Python • 🛢️ SQL • 📘 TypeScript • 🟨 Javascript • 🔷 C++   
-
-**Backend:**  
-🔧 Spring Boot • Spring MVC • JEE • REST APIs • Microservices • Webservices  
-
-**Cloud & DevOps:**  
-🐳 Docker   
-
-**Databases:**  
-🗄 PostgreSQL • MongoDB  
-
-**ML & AI:**  
-🧠 NLP (text classification) • 👁️ Computer Vision (GLCM, LBP, SIFT) • 🧪 EEG signal analysis  
-
-**Tools:**  
-🔗 Git • 📬 Postman • 🧰 Maven • 🟧 Angular
-
----
-
-### 💼 Professional Experience
-
-#### **Associate Software Developer — TransUnion**
-- ⚙️ Developed backend features, integrations, and enhancements for internal systems.    
-- 🔍 Resolved production issues and improved service reliability.  
-- 📡 Led a module in an **email vendor migration** project.
-
-#### **Software Development Intern — TransUnion**
-- 🚀 Strengthened foundations in Java, Spring Boot, and REST API development.  
-- 🛠️ Contributed to backend logic and automation tools.
-- 🧭 Contributed to the **Career Navigation Tool** using Spring Boot + Angular + PostgreSQL.
-
----
-
-### 🎓 Education
-
-**B.Tech — Electronics & Telecommunication Engineering**  
-*Vishwakarma Institute of Technology (VIT), Pune*
-
-**Relevant Coursework:**  
-📘 Data Structures  
-📗 Algorithms  
-💾 Operating Systems  
-🗄 DBMS 
-📘 Object Oriented Programming
-🤖 Machine Learning  
-🧠 Deep Learning  
-📝 Natural Language Processing  
-👁️ Computer Vision  
-🐍 Python Programming  
-📊 Data Science  
-☁️ Cloud Computing  
-🤖 Robotics (First Year)
-
----
-
-### 🔬 Research & Projects
-
-#### **1. Hate Speech Detection using NLP**
-- 🗣️ Built an LSTM-based NLP model to detect hate speech.  
-- 🔡 Implemented preprocessing, tokenization, embeddings, and evaluation.
-
-#### **2. EEG-Based Emotion Detection**
-- 🧠 Used sliding window analysis to classify emotional states from EEG signals.  
-- 📄 Under Publication in **ICRAIC2IT 2025 Taylor & Francis.**
-
-#### **3. Leakage Detection in Roofs & Walls (Computer Vision)**
-- 🧱 Applied **GLCM** and **LBP** texture analysis for leakage identification.  
-- 🏅 Under Publication at **IEEE INSPECT 2025**.
-
-#### **4. Crowd Detection & Navigation Assistance (Computer Vision)**  
-*Status: Completed*  
-- 👥 Designed SIFT + PCA based crowd detection for assistive mobility.
-
----
-
-### 🚀 Interests
-- ⚙️ Backend development  
-- 📡 Distributed systems  
-- ☁️ Cloud engineering
-- 🤖 Artificial Intelligence and Data Science 
-- 🔍 Applied research  
-
----
-
-### 📈 GitHub Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=nihaar6601" alt="GitHub Streak"/>
-  <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api?username=nihaar6601&show_icons=true" alt="GitHub Stats"/>
-  <br/><br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nihaar6601&layout=compact" alt="Top Languages"/>
+  <a href="https://niharchaudhari.me">Portfolio</a> •
+  <a href="https://www.linkedin.com/in/nihaar6601">LinkedIn</a> •
+  <a href="mailto:nihar.chaudhari@stonybrook.edu">Email</a>
 </p>
 
 ---
 
-### 🌐 Connect With Me
-- 🔗 **LinkedIn:** https://www.linkedin.com/in/nihar-chaudhari
-- 📧 **Email:** nihaar6601@gmail.com  
+### About Me
 
-Thanks for stopping by! ✨
+I'm a software developer with three years of experience at **TransUnion**, primarily working on Java and Spring backend systems, API integrations, data migration, and payment processing.
+
+I'm currently pursuing an **MS in Computer Science at Stony Brook University** (expected May 2028). I enjoy backend engineering and distributed systems, and lately I've been exploring how to build useful AI applications around retrieval, asynchronous processing, and LLMs.
+
+### Technical Skills
+
+- **Languages:** Java, Python, JavaScript, SQL, C++, C
+- **Backend:** Spring Boot, Spring MVC, JAX-RS, EJB, Node.js, Express, REST and SOAP APIs
+- **Databases & infrastructure:** PostgreSQL, MongoDB, Redis/Valkey, Qdrant, Docker, Git, BullMQ, Apache Kafka
+- **Applied AI:** RAG, embeddings, vector search, hybrid retrieval, BM25, Hugging Face Transformers, LLM integration, MCP
+
+### Experience
+
+**Associate Software Developer — TransUnion** | Aug 2023 – Jul 2026
+
+- Built Java and Spring backend services and integrated REST and SOAP APIs for customer communication systems.
+- Worked on backend integrations and asynchronous notification workflows.
+- Developed batch-processing pipelines for migrating **200K+ customer records** from legacy systems.
+- Fixed a payment-processing defect that caused duplicate customer debits by correcting backend transaction logic.
+
+**Software Developer Intern — TransUnion** | Feb 2023 – Jun 2023
+
+- Developed REST APIs and web features using Spring Boot, AngularJS, and PostgreSQL for an internal information-security career platform.
+
+**Recognition:** Quarterly Performance Award (2025) · GCC Champ Award (2024)
+
+### Projects
+
+#### [PDF Chat with Hybrid RAG](https://github.com/nihaar6601/Rag-PDF)
+
+A multi-document RAG app for uploading PDFs and asking questions grounded in their contents.
+
+- Uses **Qdrant vector search + BM25 keyword retrieval**, with custom reranking to find relevant passages across documents.
+- Generates **Hugging Face embeddings** and returns LLM answers with document/page references.
+- Processes PDF uploads asynchronously using **BullMQ** and **Valkey/Redis**.
+- Built with **Next.js, React, Express, Qdrant, and Groq**.
+
+#### YouTube Video Summarizer
+
+A backend-focused application for generating summaries from YouTube transcripts.
+
+- Processes transcripts asynchronously with **Express, BullMQ, and worker services**, then uses **Groq** for summarization.
+- Uses **Redis caching and MongoDB** to avoid reprocessing previously handled videos.
+
+### Research
+
+**EEG-Based Emotion Detection** — Presented and published at **ICRAIC2IT 2025**.
+
+Built an ML pipeline to classify emotional states from EEG signals using preprocessing, sliding-window segmentation, and feature extraction.
+
+### Education
+
+**Stony Brook University** — MS, Computer Science | Aug 2026 – May 2028 (expected)
+
+**Vishwakarma Institute of Technology, Pune** — B.Tech, Electronics & Telecommunication Engineering | 2019 – 2023
+
+---
+
+### Connect
+
+- 🌐 [Portfolio — niharchaudhari.me](https://niharchaudhari.me)
+- 💼 [LinkedIn](https://www.linkedin.com/in/nihaar6601)
+- ✉️ [nihar.chaudhari@stonybrook.edu](mailto:nihar.chaudhari@stonybrook.edu)
